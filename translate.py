@@ -17,3 +17,6 @@ for record in SeqIO.parse(readsList, "fasta"):
 
 readsList.close()
 output.close
+
+#run
+#python2 translate.py <sequence.fasta to translate> <output file>

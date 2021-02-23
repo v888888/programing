@@ -27,3 +27,5 @@ for record in SeqIO.parse(readsList, "fasta"):
 readsList.close()
 output.close
 
+#run
+#python3 extractRegion.py <multialignment.fasta file> <outputFile.fasta file> <number where start extraction> <number where extraction ends>

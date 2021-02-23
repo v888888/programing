@@ -1,7 +1,7 @@
 from Bio import SeqIO
 import sys
 from Bio import Entrez
-Entrez.email = 'vale.filipa@gmail.com'
+Entrez.email = 'youremail@here' #add your email here
 
 
 readsList = open(sys.argv[1], 'rU')
@@ -29,3 +29,5 @@ for record in SeqIO.parse(readsList, "fasta"):
 readsList.close()
 outputfile.close()
 
+#run
+#python3 renameFastaHost.py <sequence.fasta input> <sequence.fasta output>
